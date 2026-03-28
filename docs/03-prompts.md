@@ -83,4 +83,4 @@ REGRAS:
 
 > Registre aqui ajustes que você fez nos prompts e por quê.
 
-- Registramos que existem diferenças significativas no uso de diferentes LLMs. Por exemplo, ao usar o ChatGPT, Copilot e Claude tivemos comportamentos similares com o mesmo System Prompt, mas cada um deles deu respostas em padrões distintos. Na prática, todos se saíram bem, mas o ChatGPT se perdeu Edge Case da "Pergunta fora do escopo" (Qual a previsão do tempo amanhã?).
+- Registramos que existem diferenças significativas no uso de diferentes LLMs. Por exemplo, ao usar o ChatGPT, Gemini, DeepSeek e Claude tivemos comportamentos similares com o mesmo System Prompt, mas cada um deles deu respostas em padrões distintos. Na prática, todos se saíram bem, mas o ChatGPT, Gemini e DeepSeek se perderam Edge Case da "Pergunta fora do escopo" (Qual a previsão do tempo amanhã?).
