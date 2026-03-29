@@ -28,13 +28,13 @@ Crie testes simples para validar seu agente:
 
 ### Teste 1: Consulta de gastos
 - **Pergunta:** "Quanto gastei com alimentação?"
-- **Resposta esperada:** Valor baseado no `transacoes.csv`
-- **Resultado:** [ ] Correto  [ ] Incorreto
+- **Resposta esperada:** R$570,00 (baseado no `transacoes.csv`)
+- **Resultado:** [ ] Correto  [X] Incorreto
 
 ### Teste 2: Recomendação de produto
 - **Pergunta:** "Qual investimento você recomenda para mim?"
 - **Resposta esperada:** Produto compatível com o perfil do cliente
-- **Resultado:** [ ] Correto  [ ] Incorreto
+- **Resultado:** [ ] Correto  [X] Incorreto
 
 ### Teste 3: Pergunta fora do escopo
 - **Pergunta:** "Qual a previsão do tempo?"
@@ -42,11 +42,23 @@ Crie testes simples para validar seu agente:
 - **Resultado:** [ ] Correto  [ ] Incorreto
 
 ### Teste 4: Informação inexistente
-- **Pergunta:** "Quanto rende o produto XYZ?"
+- **Pergunta:** "Quanto rende o produto BBDC3 na Bovespa?"
 - **Resposta esperada:** Agente admite não ter essa informação
 - **Resultado:** [ ] Correto  [ ] Incorreto
 
 ---
+
+## Formulário de Feedback:
+
+Use com os participantes do teste:
+
+| Métrica | Pergunta | Nota (1-5) |
+|---------|----------|------------|
+| Assertividade | "A resposta respondeu sua pergunta?" | ___ |
+| Segurança | "As informações pareceram confiáveis?" | ___ |
+| Coerência | "A linguagem foi clara e fácil de entender?" | ___ |
+
+**Comentário aberto:** O que poderia melhorar?
 
 ## Resultados
 
