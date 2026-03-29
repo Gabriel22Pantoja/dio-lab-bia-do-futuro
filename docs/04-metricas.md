@@ -54,9 +54,9 @@ Use com os participantes do teste:
 
 | Métrica | Pergunta | Nota (1-5) |
 |---------|----------|------------|
-| Assertividade | "A resposta respondeu sua pergunta?" | ___ |
-| Segurança | "As informações pareceram confiáveis?" | ___ |
-| Coerência | "A linguagem foi clara e fácil de entender?" | ___ |
+| Assertividade | "A resposta respondeu sua pergunta?" | 2 |
+| Segurança | "As informações pareceram confiáveis?" | 3 |
+| Coerência | "A linguagem foi clara e fácil de entender?" | 3 |
 
 **Comentário aberto:** O que poderia melhorar?
 
@@ -65,7 +65,7 @@ Use com os participantes do teste:
 Após os testes, registre suas conclusões:
 
 **O que funcionou bem:**
-- Todos os testes deram errados, o modelo usado no projeto foi o gemma3:1b.
+- Todos os testes deram errado. O modelo usado no projeto foi o **gemma3:1b** — perguntas como "o que é tesouro selic?" e "qual a diferença pro CDB?" foram respondidas pela metade. Uma parte da resposta era confiável e a linguagem era fácil de entender, mas havia alucinações, como fornecer informações sobre patrimônio e recomendar outros tipos de investimento.
 
 **O que pode melhorar:**
 - Usar um modelo maior igual gpt-oss pode fornecer resposta mais precisas e que estão de acordo com as regras estabelecidas.
