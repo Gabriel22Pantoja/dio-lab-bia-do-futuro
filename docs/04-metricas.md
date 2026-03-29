@@ -39,12 +39,12 @@ Crie testes simples para validar seu agente:
 ### Teste 3: Pergunta fora do escopo
 - **Pergunta:** "Qual a previsão do tempo?"
 - **Resposta esperada:** Agente informa que só trata de finanças
-- **Resultado:** [ ] Correto  [ ] Incorreto
+- **Resultado:** [ ] Correto  [X] Incorreto
 
 ### Teste 4: Informação inexistente
 - **Pergunta:** "Quanto rende o produto BBDC3 na Bovespa?"
 - **Resposta esperada:** Agente admite não ter essa informação
-- **Resultado:** [ ] Correto  [ ] Incorreto
+- **Resultado:** [ ] Correto  [X] Incorreto
 
 ---
 
@@ -65,10 +65,10 @@ Use com os participantes do teste:
 Após os testes, registre suas conclusões:
 
 **O que funcionou bem:**
-- [Liste aqui]
+- Todos os testes deram errados, o modelo usado no projeto foi o gemma3:1b.
 
 **O que pode melhorar:**
-- [Liste aqui]
+- Usar um modelo maior igual gpt-oss pode fornecer resposta mais precisas e que estão de acordo com as regras estabelecidas.
 
 ---
 
